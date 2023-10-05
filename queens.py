@@ -6,7 +6,6 @@
 
 """ Safe placement of 8 queens """
 
-import random
 
 # перевод координат из строки в пару (ряд, столбец): "b1" -> (0,1)
 str2coord = lambda s: (int(s[1])-1, ord(s[0])-ord('a'))
